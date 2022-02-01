@@ -9,7 +9,7 @@ def print_hi(name):
     print(f'{name}바보')  # Press Ctrl+F8 to toggle the breakpoint.
 
 def random_string(n):
-    name_samples =["누리", "우기", "영훈", "지회", "바보", "꼬부기", "서진", "멍청이"]
+    name_samples =["누리", "우기", "영훈", "지회", "바보", "꼬부기", "서진", "냄새꼬"]
     result = ""
     for i in range(n):
         result += random.choice(name_samples)
